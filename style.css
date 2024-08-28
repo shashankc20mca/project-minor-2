@@ -62,8 +62,7 @@ nav #selection div{
 
 nav #selection img{
     height: 0.4rem;
-    width: 0.8rem;
-   
+    width: 0.8rem;   
 }
 nav #search{
     border-radius: 2rem;
@@ -113,14 +112,16 @@ box-sizing: border-box;
 
 main #line1{
     box-sizing: border-box;
-    
+   
   display: inline-flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  margin: 2rem;
-width: 89%;
+  justify-content: space-between;
+
+width: 91%;
 padding: 2rem;
-margin: 2rem;
+padding-right: 1rem;
+margin-top: 4rem;
+margin-left:4.5rem;
 
 }
 main #line1 img{
@@ -133,12 +134,13 @@ main #line1 img{
 }
 main #line1 textarea{
    
-    width: 70%;
+    width: 74%;
     border-radius: 1rem;
-    border:2px solid black;
-    padding: 1rem;
+    
+ padding: 1rem;
+   
     background-color: #E5D8FF;
-    box-shadow: 0rem 0.5rem  2rem rgb(0, 0, 0,0.8);
+    box-shadow: 0rem 0.5rem  1rem rgb(0, 0, 0,0.8);
     font-family: "DM Sans", sans-serif;
     font-size: 1.5rem;
   
@@ -146,20 +148,21 @@ main #line1 textarea{
 }
 main #line1 textarea::placeholder {
    
-    color:#6F7373; 
+    color:#6F7373;
     font-weight: 400;
     font-family: "DM Sans", sans-serif;
     font-size: 1.5rem;
+   
 }
 main #line2{
     box-sizing: border-box;
     display:inline-flex;
     justify-content: space-evenly;
     align-items: center;
-    
-   margin-left:4rem;
+   
+   margin-left:4.8rem;
     height:30%;
-    width:85%;
+    width:91%;
 
 }
 
@@ -167,7 +170,7 @@ main #line2 div{
     border:2px solid black;
     font-size: 1.5rem;
     height: 5rem;
-    width: 17rem;
+    width: 18rem;
 
 padding:1rem;
 display: flex;
@@ -197,16 +200,12 @@ main #line2 #item4{
 main #chat {
      height: 8rem;
     width: 8rem;
-  display: flex;
-    position: sticky;
-    top:32rem;
-   float: right;  
-  
-   margin-top:4rem;
-    margin-right: 2rem;
-    justify-content:center;
-    align-items: center;
-
+ position: fixed;
+ bottom: 0.3rem;
+ right: 4rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
    
 }
 
@@ -215,15 +214,16 @@ main #wh{
     box-sizing: border-box;
  display: inline-flex;
  justify-content: space-evenly;
-
- height:30%;
- width: 4%;
+ 
+ height:24%;
+ margin-top: 8rem;
+ margin-right: 0.5rem;
+ 
  flex-direction: column;
 float: right;
 position: sticky;
-top:0;
-margin-top: 2rem;
-margin-right: 1rem;
+top:1rem;
+
 }
 main #wh img{
     box-sizing: border-box;
